@@ -30,13 +30,28 @@
       list-style: none;
   }
 
-  header nav ul li a{
+  .navlist{
+      margin-bottom: 5px;
+  }
+
+  .navlist a{
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
     text-decoration: none;
     color: black;
   }
+
+  li:hover{
+      list-style-type: none;
+      text-shadow: 2px 2px aquamarine;
+  }
+
+  li:hover:nth-child(1n){
+    color: aquamarine;
+    background-color: black;
+  }
+
 
   .footer{
     display: flex;
