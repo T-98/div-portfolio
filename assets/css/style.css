@@ -91,7 +91,7 @@
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(9, 1fr);
     grid-gap: 10px;
-    grid-auto-flow: dense;
+    grid-auto-flow: column;
   }
   
   .grid-item {
@@ -130,7 +130,7 @@
 }
 
 .item-3{
-    background-image: url("../images/hero.jpg");
+    background-color: turquoise;
     background-size: cover;
     background-position: center;
     grid-column: span 2;
@@ -141,39 +141,26 @@
     background-size: cover;
     background-position: center;
     background-color: tomato;
-    grid-column: 7 / span 3;
-    grid-row: span 3; 
+    grid-column: 3 / span 3;
+    grid-row: 7 / span 2; 
 }
 
 .item-5{
-    border: transparent;
-    color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: greenyellow ;
+  grid-column: span 2;
+  grid-row: span 3;
 }
 
 .item-6{
-    border: transparent;
-    color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: yellow ;
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
-.grid-container-3{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-auto-flow: dense;
-  }
-  /* TODO: Add your code for Boxes 3, 6, 9 */
-  /*.grid-item:nth-child(3n){
-    grid-column: span 3;
-    grid-row: span 2;
-  }*/
-  
-  /* TODO: Add your code for Box 10 */
-  /*.item-10{
-    grid-column: 3 / span 3; 
-    grid-row: 2 / span 4;
-  }
-*/
   /*GRIDS END*/
 
 /*
